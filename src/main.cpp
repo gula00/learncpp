@@ -1,14 +1,8 @@
-#include <iostream>  // for std::cout and std::cin
+#include <iostream>
 
-int main()
-{
-    std::cout << "Enter two numbers: ";
-
-    int x{};
-    int y{};
-    std::cin >> x >> y;
-
-    std::cout << "You entered " << x << " and " << y << '\n';
-
+int main() {
+    int a = 1;
+    int b = 5;
+    std::cout << "a + b = " << a + b << '\n';
     return 0;
 }
